@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<EditText
+		android:id="@+id/safenumber"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="请输入一个安全有效的手机号码"
+	
+	></EditText>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+	
+	<Button
+		android:id="@+id/start"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="开始防盗"
+		android:layout_weight="1"
+	></Button>
+	
+	<Button
+		android:id="@+id/modify"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="修改密码"
+		android:layout_weight="1"
+	></Button>
+	</LinearLayout>
+	
+</LinearLayout>
